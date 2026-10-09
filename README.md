@@ -134,7 +134,7 @@ The key to working with automation engineers is a **clear byte contract**. Each 
 
 ## ✅ Status
 
-- Commissioned with a **Siemens PLC** (TIA Portal) over Profinet: **light control verified end to end** (commands acknowledged, replies, status and heartbeat back in the PLC). The liquid lens uses the same frame path with its own window.
+- Commissioned with a **Siemens PLC** (TIA Portal) over Profinet and **verified on the machine end to end**: the light channels switch and dim, the liquid lens refocuses, and replies, status and heartbeat reach the PLC.
 - Running as a headless **Raspberry Pi 4** service with automatic restart.
 
 ## 🧰 Tech stack
